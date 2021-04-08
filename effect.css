@@ -72,3 +72,37 @@
     border-radius: 50px;
     transform: scale(1.5);
 }
+
+/* ##### ESERCIZIO N.10 ##### */
+.ex-10-icon {
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ##### ESERCIZIO N.11 ##### */
+.ex-11-icon:hover {
+    animation: loading2 2s linear;
+}
+
+@keyframes loading2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
