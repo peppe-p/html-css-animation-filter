@@ -13,3 +13,30 @@
 .ex-2-square:active {
     width: 100%;
 }
+
+/* ##### ESERCIZIO N.3 ##### */
+.ex-3-square {
+    transition: 0.4s linear;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* ##### ESERCIZIO N.4 ##### */
+.ex-4-square {
+    transition: 1s linear;
+}
+.ex-4-square:hover {
+    opacity: 0%;
+}
+
+/* ##### ESERCIZIO N.5 ##### */
+.ex-5-square {
+    transition: 1s linear;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(0.5);
+}
